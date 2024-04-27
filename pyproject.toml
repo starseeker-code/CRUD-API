@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "crud-example-library-app"
+version = "0.1.0"
+description = "This is a CRUD API meant for books/readers. It's meant to showcase Django ninja's 3-layer design and N:N SQL database normal forms"
+authors = ["Joaquin Hernandez Martinez <proyecto_noether@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Django = "^5.0.4"
+mypy = "^1.10.0"
+django-ninja = "^1.1.0"
+pendulum = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
